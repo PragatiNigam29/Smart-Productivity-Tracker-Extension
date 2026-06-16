@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Productivity Tracker</title>
+<style>
+body {
+  font-family: Arial;
+  width: 320px;
+  padding: 15px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+}
+
+.card {
+  background: white;
+  color: #333;
+  padding: 12px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.bar {
+  height: 20px;
+  background: #4caf50;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+</style>
+</head>
+<body>
+
+<div class="card">
+  <h3>Time Spent Today</h3>
+  <div id="time">0 mins</div>
+</div>
+
+<div class="card">
+  <h3>Productivity Score</h3>
+  <div id="score">0%</div>
+</div>
+
+<div class="card">
+  <h3>Site Usage</h3>
+  <div id="sites"></div>
+</div>
+
+<script src="popup.js"></script>
+</body>
+</html>
